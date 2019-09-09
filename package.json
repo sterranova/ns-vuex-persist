@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iMone/ns-vuex-persist.git"
+    "url": "git+https://github.com/sterranova/ns-vuex-persist.git"
   },
   "keywords": [
     "nativescript",
@@ -19,9 +19,9 @@
   "author": "Simone Terranova",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/iMone/ns-vuex-persist/issues"
+    "url": "https://github.com/sterranova/ns-vuex-persist/issues"
   },
-  "homepage": "https://github.com/iMone/ns-vuex-persist#readme",
+  "homepage": "https://github.com/sterranova/ns-vuex-persist#readme",
   "dependencies": {
     "vuex-persist": "^2.1.0"
   }
