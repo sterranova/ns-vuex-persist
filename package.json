@@ -1,0 +1,28 @@
+{
+  "name": "ns-vuex-persist",
+  "version": "0.1.0",
+  "description": "A Vuex plugin that enables you to save the state of your NativeScript app to the SharedPreferences on Android and NSUserDefaults on iOS via the Application Settings module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iMone/ns-vuex-persist.git"
+  },
+  "keywords": [
+    "nativescript",
+    "vuex",
+    "plugin",
+    "native storage"
+  ],
+  "author": "Simone Terranova",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iMone/ns-vuex-persist/issues"
+  },
+  "homepage": "https://github.com/iMone/ns-vuex-persist#readme",
+  "dependencies": {
+    "vuex-persist": "^2.1.0"
+  }
+}
