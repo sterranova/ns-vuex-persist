@@ -70,11 +70,11 @@ class NativeStorage {
 /**
  * Return a VuexPeristence plugin initialized that saves data into the application settings
  * @param {Array<String>} modules List of modules to be saved into the storage
+ * @param {String} key The key to use for storage. Allows versioning.
  * @returns {Plugin} VuexPeristence plugin function
  */
-const NSVuexPersist = modules => {
+const NSVuexPersist = (modules, key = 'store') => {
   /** Prepare options */
-  const key = 'store'
   const storage = new NativeStorage(AppSettings)
 
   /** Initialize VuexPersistence with NativeStorage and return plugin */
